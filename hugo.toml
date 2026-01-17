@@ -7,3 +7,44 @@ summaryLength = 30
 enableEmoji = true
 theme = 'hugo-kiera'
 
+# Menu configuration for main toolbar
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags"
+weight = 1
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories"
+weight = -1
+
+# Pagination configuration
+[pagination]
+pagerSize = 10
+
+# Taxonomies for author metadata
+[taxonomies]
+author = "Roberto dell'Oglio"
+tag = "tags"
+category = "categories"
+
+# Social media links
+[params]
+tagline = "-tagline-"
+customCSS = []
+github = "roberto-delloglio"
+linkedin = "roberto-dell-oglio-22820933"
+# instagram = "username"
+# stackoverflow = "username"
+# youtube = "user/username"
+# devto = "username"
+# utterancesRepo = "username/repository"
+# utterancesIssueTerm = "pathname"
+# homepageLength = 10
+# commentAutoload = true
+# mathjax = true
+# katex = true
+# google_fonts = ["Staatliches"]
+# disableDarkModeCSS = false
