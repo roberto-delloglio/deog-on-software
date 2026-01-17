@@ -1,0 +1,9 @@
+baseURL = 'https://roberto-delloglio.github.io/deog-on-software/'
+languageCode = 'en-us'
+title = 'Deog on Software'
+copyright = "Copyright © 2026 - Roberto dell'Oglio"
+canonifyURLs = true
+summaryLength = 30
+enableEmoji = true
+theme = 'hugo-kiera'
+
